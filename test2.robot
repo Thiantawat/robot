@@ -10,6 +10,6 @@ ${BROWSER}    Chrome
 Open Welcome Page
     Open Browser    ${SERVER}    ${BROWSER}
 	Input Text    q    www.cs.kku.ac.th
-	Click Button    btnK
+	submitform
     Close Browser
 
